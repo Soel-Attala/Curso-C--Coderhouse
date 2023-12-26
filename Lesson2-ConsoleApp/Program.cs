@@ -1,4 +1,4 @@
-﻿
+﻿/*
 
 
 int productSold;
@@ -29,3 +29,41 @@ else
 }
 
 Console.ReadKey();
+*/
+
+
+
+/* Ejercicio 2: Supongamos que tenemos una lista de empleados y queremos:
+ * Mostrar a que categoría corresponden segun su código a saber:
+ * a - es Administrativo
+ * b - es Profesional
+ * c - es Maestranza
+ * Ninguno de los anteriores es Sin Categoría
+ * 
+ * Observar el uso del ReadLine() en este caso al asignarse a una variable string que no fuera necesario convertir
+ * 
+ */
+
+string category;
+
+Console.WriteLine("Please insert a category A, B or C");
+category = Console.ReadLine();
+switch (category)
+{
+    case "A":
+        Console.WriteLine("Administrative employee");
+        break;
+    case "B":
+        Console.WriteLine("Profesional employee");
+        break;
+    case "C":
+        Console.WriteLine("Maestranza employee");
+        break;
+    default:
+        Console.WriteLine("No category");
+        break;
+}
+
+Console.ReadKey();
+
+

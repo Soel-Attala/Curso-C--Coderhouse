@@ -1,5 +1,4 @@
-﻿/*
-
+﻿/* Ejercicio 1:
 
 int productSold;
 int productsInDeposit = 50;
@@ -69,7 +68,10 @@ Console.ReadKey();
 
 */
 
-/*La secretaria de una universidad nos pide un sistema para poder cargar los datos de sus alumnos, 
+
+
+/*Ejercicio 3:
+ * La secretaria de una universidad nos pide un sistema para poder cargar los datos de sus alumnos, 
  * necesitan poder cargar la comisión que puede ser A si son de turno mañana, B si son de turno tarde, 
  * C si son de turno noche y en caso de no tener comisión indica que no tienen turno fijado.
 
@@ -78,6 +80,8 @@ en caso de ser menor a 4 el alumno Recursa la Materia, si está entre 4 y 7 es A
 y si es mayor que 7 Promociona la Materia.
 */
 
+
+/*
 string course;
 
 Console.WriteLine("Please insert a course A,B or C");
@@ -124,3 +128,77 @@ else
 
 Console.ReadKey();
 
+*/
+
+
+
+/*Ejercicio4: 
+ * Nos piden que armemos un programa de consola que valide la contraseña 
+que ingresa el usuario por teclado y nos informe qué perfil tiene el usuario 
+los cuales pueden ser A para Administrador, U para Usuario y en caso 
+contrario Sin Perfil definido.
+
+Tener en cuenta que la contraseña debe estar almacenada previamente al 
+momento de la ejecución del programa. Es “numérica” de ocho dígitos. Así 
+como también el perfil preestablecido que puede ser A, U o X.
+
+Si el acceso es válido, mostrar un mensaje de bienvenida y el perfil del 
+usuario. De lo contrario, se le pide una vez más la contraseña. Si el acceso 
+es válido esta última vez, también mostrar un mensaje de bienvenida. De lo 
+contrario, informar que debe reiniciar el sistema.
+ */
+
+int passwordCreate;
+int passwordVerification;
+char profile;
+
+Console.WriteLine("Please create your password: ");
+passwordCreate = Convert.ToInt32(Console.ReadLine());
+
+if (passwordCreate.ToString().Length >= 8)
+{
+    Console.WriteLine("Password save");
+}
+else
+{
+    Console.WriteLine("Incorrect password, please select a numeric password with 8 or more characters");
+    passwordCreate = Convert.ToInt32(Console.ReadLine());
+    if (passwordCreate.ToString().Length >= 8)
+    {
+        Console.WriteLine("password save");
+    }
+}
+
+
+
+Console.WriteLine("Please write your password to access the sistem");
+passwordVerification = Convert.ToInt32(Console.ReadLine());
+
+
+if (passwordCreate == passwordVerification)
+{
+    Console.WriteLine("Please select your profile A, U, X");
+    Console.WriteLine("A : Administrator");
+    Console.WriteLine("U : User");
+    Console.WriteLine("X : New Profile");
+    profile = Convert.ToChar(Console.ReadLine());
+    switch (profile)
+    {
+        case 'A':
+            Console.WriteLine("Wlcome Administrator");
+            break;
+        case 'B':
+            Console.WriteLine("Welcome User");
+            break;
+        case 'X':
+            Console.WriteLine("Welcome, undefined profile, please create your profile");
+            break;
+    }
+}
+else
+{
+    Console.WriteLine("Incorrect password pleae try again later");
+}
+
+
+Console.ReadKey();

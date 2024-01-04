@@ -1,0 +1,14 @@
+C:\Users\Usuario\Desktop\Programación\C#Coderhouse\Curso-C--Coderhouse\Lesson3-ConsoleApp\bin\Debug\net6.0\Lesson4-ConsoleApp.exe
+C:\Users\Usuario\Desktop\Programación\C#Coderhouse\Curso-C--Coderhouse\Lesson3-ConsoleApp\bin\Debug\net6.0\Lesson4-ConsoleApp.deps.json
+C:\Users\Usuario\Desktop\Programación\C#Coderhouse\Curso-C--Coderhouse\Lesson3-ConsoleApp\bin\Debug\net6.0\Lesson4-ConsoleApp.runtimeconfig.json
+C:\Users\Usuario\Desktop\Programación\C#Coderhouse\Curso-C--Coderhouse\Lesson3-ConsoleApp\bin\Debug\net6.0\Lesson4-ConsoleApp.dll
+C:\Users\Usuario\Desktop\Programación\C#Coderhouse\Curso-C--Coderhouse\Lesson3-ConsoleApp\bin\Debug\net6.0\Lesson4-ConsoleApp.pdb
+C:\Users\Usuario\Desktop\Programación\C#Coderhouse\Curso-C--Coderhouse\Lesson3-ConsoleApp\obj\Debug\net6.0\Lesson4-ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\Programación\C#Coderhouse\Curso-C--Coderhouse\Lesson3-ConsoleApp\obj\Debug\net6.0\Lesson4-ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Programación\C#Coderhouse\Curso-C--Coderhouse\Lesson3-ConsoleApp\obj\Debug\net6.0\Lesson4-ConsoleApp.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Programación\C#Coderhouse\Curso-C--Coderhouse\Lesson3-ConsoleApp\obj\Debug\net6.0\Lesson4-ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Programación\C#Coderhouse\Curso-C--Coderhouse\Lesson3-ConsoleApp\obj\Debug\net6.0\Lesson4-ConsoleApp.dll
+C:\Users\Usuario\Desktop\Programación\C#Coderhouse\Curso-C--Coderhouse\Lesson3-ConsoleApp\obj\Debug\net6.0\refint\Lesson4-ConsoleApp.dll
+C:\Users\Usuario\Desktop\Programación\C#Coderhouse\Curso-C--Coderhouse\Lesson3-ConsoleApp\obj\Debug\net6.0\Lesson4-ConsoleApp.pdb
+C:\Users\Usuario\Desktop\Programación\C#Coderhouse\Curso-C--Coderhouse\Lesson3-ConsoleApp\obj\Debug\net6.0\Lesson4-ConsoleApp.genruntimeconfig.cache
+C:\Users\Usuario\Desktop\Programación\C#Coderhouse\Curso-C--Coderhouse\Lesson3-ConsoleApp\obj\Debug\net6.0\ref\Lesson4-ConsoleApp.dll

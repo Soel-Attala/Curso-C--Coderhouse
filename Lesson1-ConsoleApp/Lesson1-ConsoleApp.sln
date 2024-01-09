@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson2-ConsoleApp", "..\Le
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson2-WinFormApp", "..\Lesson2-WinFormApp\Lesson2-WinFormApp.csproj", "{96A5A71D-D018-44B0-B0B1-BFE3F397E4F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson4-ConsoleApp", "..\Lesson3-ConsoleApp\Lesson4-ConsoleApp.csproj", "{760469E1-9836-42C2-8918-31B2A4519849}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson4-ConsoleApp", "..\Lesson3-ConsoleApp\Lesson4-ConsoleApp.csproj", "{760469E1-9836-42C2-8918-31B2A4519849}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson5-ConsoleApp", "..\Lesson5-ConsoleApp\Lesson5-ConsoleApp.csproj", "{CCD5A5F1-38CA-47A7-B189-7B350AF7359E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{760469E1-9836-42C2-8918-31B2A4519849}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{760469E1-9836-42C2-8918-31B2A4519849}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{760469E1-9836-42C2-8918-31B2A4519849}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCD5A5F1-38CA-47A7-B189-7B350AF7359E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCD5A5F1-38CA-47A7-B189-7B350AF7359E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCD5A5F1-38CA-47A7-B189-7B350AF7359E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCD5A5F1-38CA-47A7-B189-7B350AF7359E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

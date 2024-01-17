@@ -26,5 +26,20 @@ namespace Lesson6_Inheritance
             this.adress = adress;
         }
 
+        public virtual void ShowData()
+        {
+            Console.WriteLine($" Name: {this.name}\n DNI:{this.DNI}\n Adress:{this.adress}\n");
+        }
+
+        public static string EmergencyNumber()
+        {
+            return "101, 911";
+        }
+
     }
 }
+
+/*                                           virtual and override.
+    utilizamos virtual para poder modificar algun metodo de la clase padre en un clase hija.
+    y la palabra override es lo que usamos para hacer dicha sobreescritura o modificacion.
+*/

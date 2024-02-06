@@ -21,9 +21,7 @@ class Program
         // Student student2 = person1; we cant do this, because a student cant be a person1, because the son cant be equal to the father class
         // All person can be a student, but student cant be a person
 
-
-
-
+        //las clases abstractas no se pueden instanciar, pero si pueden heredar, por lo tanto se instancian a traves de las clases hijas
     }
 }
 

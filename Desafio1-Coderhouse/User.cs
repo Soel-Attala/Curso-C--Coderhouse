@@ -8,12 +8,12 @@ namespace Desafio1_Coderhouse
 {
     public class User
     {
-        private int id { get; set; }
-        private string firstName { get; set; }
-        private string lastName { get; set; }
-        private string email { get; set; }
-        private string userName { get; set; }
-        private string password { get; set; }
+        public int id { get; set; }
+        public string firstName { get; set; }
+        public string lastName { get; set; }
+        public string email { get; set; }
+        public string userName { get; set; }
+        public string password { get; set; }
 
 
     }

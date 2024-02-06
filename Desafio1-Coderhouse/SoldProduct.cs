@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Desafio1_Coderhouse
 {
-    public class SaleProduct
+    public class SoldProduct
     {
         public int id { get; set; }
         public int productId { get; set; }

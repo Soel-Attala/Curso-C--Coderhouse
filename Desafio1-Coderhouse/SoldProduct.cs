@@ -8,10 +8,18 @@ namespace Desafio1_Coderhouse
 {
     public class SoldProduct
     {
-        public int id { get; set; }
-        public int productId { get; set; }
-        public int saleId { get; set; }
-        public long stock { get; set; }
+        public int Id { get; set; }
+        public int ProductId { get; set; }
+        public int SaleId { get; set; }
+        public long Stock { get; set; }
 
+        public SoldProduct(int id, int productId, int saleId, long stock)
+        {
+            Id = id;
+            ProductId = productId;
+            SaleId = saleId;
+            Stock = stock;
+        }
     }
+
 }

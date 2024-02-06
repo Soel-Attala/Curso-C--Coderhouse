@@ -8,9 +8,16 @@ namespace Desafio1_Coderhouse
 {
     public class Sale
     {
-        public int id { get; set; }
-        public int saleId { get; set; }
-        public string coments { get; set; }
+        public int Id { get; set; }
+        public int SaleId { get; set; }
+        public string Comments { get; set; }
 
+        public Sale(int id, int saleId, string comments)
+        {
+            Id = id;
+            SaleId = saleId;
+            Comments = comments;
+        }
     }
+
 }

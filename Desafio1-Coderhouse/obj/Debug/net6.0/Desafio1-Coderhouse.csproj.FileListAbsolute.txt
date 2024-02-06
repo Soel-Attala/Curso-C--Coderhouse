@@ -1,0 +1,5 @@
+C:\Users\Usuario\Desktop\Programación\C#Coderhouse\Curso-C--Coderhouse\Desafio1-Coderhouse\obj\Debug\net6.0\Desafio1-Coderhouse.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Programación\C#Coderhouse\Curso-C--Coderhouse\Desafio1-Coderhouse\obj\Debug\net6.0\Desafio1-Coderhouse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\Programación\C#Coderhouse\Curso-C--Coderhouse\Desafio1-Coderhouse\obj\Debug\net6.0\Desafio1-Coderhouse.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Programación\C#Coderhouse\Curso-C--Coderhouse\Desafio1-Coderhouse\obj\Debug\net6.0\Desafio1-Coderhouse.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Programación\C#Coderhouse\Curso-C--Coderhouse\Desafio1-Coderhouse\obj\Debug\net6.0\Desafio1-Coderhouse.csproj.CoreCompileInputs.cache

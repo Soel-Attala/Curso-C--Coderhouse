@@ -337,6 +337,21 @@
         {
             throw new NotImplementedException();
         }
+
+        public List<Sale> GetSaleById()
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<SoldProduct> GetSoldProductById()
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Product> GetProductById()
+        {
+            throw new NotImplementedException();
+        }
     }
 
 

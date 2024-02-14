@@ -22,7 +22,7 @@ namespace DataManagement_ADO.NET_Front
 
 
             List<Product> products = new List<Product>();
-            var query = "SELECT Id, Description, Cost, SellPrice, Stock from Product;";
+            var query = "SELECT Id, Cost, SellPrice, Stock from Product;";
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
@@ -37,7 +37,6 @@ namespace DataManagement_ADO.NET_Front
                             {
                                 var Product = new Product();
                                 Product.Id = Convert.ToInt32(reader["Id"]);
-                                Product.Description = reader["Description"].ToString();
                                 Product.Cost = Convert.ToDouble(reader["cost"]);
                                 Product.SellingPrice = Convert.ToDouble(reader["SellPrice"]);
                                 Product.Stock = Convert.ToDouble(reader["Stock"]);
@@ -55,5 +54,9 @@ namespace DataManagement_ADO.NET_Front
             }
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

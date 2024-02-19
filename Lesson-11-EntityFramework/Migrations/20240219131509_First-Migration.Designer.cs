@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Lesson_11_EntityFramework.Migrations
 {
     [DbContext(typeof(DataBaseContext))]
-    [Migration("20240219125821_First Migration")]
+    [Migration("20240219131509_First-Migration")]
     partial class FirstMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -13,7 +13,7 @@ namespace Lesson_11_EntityFramework.database
         public DbSet<Product> Products { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(connectionString: @"Server=SOEL-PC\\SQLEXPRESS;Database=Coder290124; Trusted_Connection=True;");
+            optionsBuilder.UseSqlServer(connectionString: @"Server=SOEL-PC\SQLEXPRESS;Database=Coder290124; Trusted_Connection=True;");
         }
     }
 }
